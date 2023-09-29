@@ -13,6 +13,9 @@ esbuildServe({
   },
   {
     port: 3005,
-    root: '.'
+    root: '.',
+    serve: {
+      '/public' : 'public'
+    }
   }
 )
